@@ -19,6 +19,11 @@ public void setName(String name) {
 public String toString() {
 	return "ListMockTest [age=" + age + ", name=" + name + "]";
 }
+public ListMockTest(int age, String name) {
+	super();
+	this.age = age;
+	this.name = name;
+}
    
    
 }
